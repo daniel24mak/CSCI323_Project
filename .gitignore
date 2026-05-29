@@ -1,26 +1,26 @@
-# data
-data/raw/
-data/processed/
-*.csv
+data/processed/*
+!data/processed/.gitkeep
 
-# generated models
-models/*.pkl
-models/*.joblib
-
-# outputs
-outputs/
+outputs/*
+!outputs/.gitkeep
 !outputs/**/.gitkeep
 
-# notebooks
-.ipynb_checkpoints/
+models/*
+!models/.gitkeep
 
-# python
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
 .venv/
 venv/
+env/
 .env
 
-# system
 .DS_Store
 Thumbs.db
