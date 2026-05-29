@@ -1,0 +1,10 @@
+feature_names
+age
+bmi
+children
+gender
+discount_eligibility
+region_northeast
+region_northwest
+region_southeast
+region_southwest

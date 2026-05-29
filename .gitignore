@@ -1,16 +1,3 @@
-data/processed/*
-!data/processed/.gitkeep
-
-outputs/*
-!outputs/.gitkeep
-!outputs/**/.gitkeep
-
-models/*
-!models/.gitkeep
-
-.ipynb_checkpoints/
-**/.ipynb_checkpoints/
-
 __pycache__/
 *.pyc
 *.pyo

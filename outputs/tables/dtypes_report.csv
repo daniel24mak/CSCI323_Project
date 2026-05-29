@@ -1,0 +1,9 @@
+,dtype
+age,int64
+gender,str
+bmi,float64
+children,int64
+discount_eligibility,str
+region,str
+expenses,float64
+premium,float64
