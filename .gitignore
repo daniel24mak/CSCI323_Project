@@ -1,18 +1,26 @@
-# Python
+# data
+data/raw/
+data/processed/
+*.csv
+
+# generated models
+models/*.pkl
+models/*.joblib
+
+# outputs
+outputs/
+!outputs/**/.gitkeep
+
+# notebooks
+.ipynb_checkpoints/
+
+# python
 __pycache__/
-*.py[cod]
+*.pyc
 .venv/
 venv/
 .env
 
-# Node
-node_modules/
-dist/
-.vite/
-
-# Large/local files
-*.pt
-*.onnx
-*.mp4
-*.avi
-*.mov
+# system
+.DS_Store
+Thumbs.db
